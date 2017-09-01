@@ -139,7 +139,7 @@
 				$(target[curNum]).css(style);
 				
 			}
-
+			settings.changeEnd();
 		}
 		//图片切换函数，先全部初始在渲染选择的那一个
 		var imgChange=function(){
@@ -199,7 +199,6 @@
 			}
 			imgChange();
 			settings.preEnd();
-			settings.changeEnd();
 			Timer(settings.autoFlag);
 			return;
 		});
@@ -215,7 +214,6 @@
 			}
 			imgChange();
 			settings.nextEnd();
-			settings.changeEnd();
 			Timer(settings.autoFlag);
 			return;
 		});
