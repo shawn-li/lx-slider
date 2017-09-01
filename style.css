@@ -1,0 +1,41 @@
+body,div{
+	margin: 0;
+	padding: 0;
+}
+// img{
+// 	width: 400px;
+// 	height: 90%;
+// }
+#slider button{
+	width: 80px;
+	height: 30px;
+	cursor: pointer;
+}
+#slider ul{
+	list-style: none;
+	padding: 5px;
+	position: absolute;
+	top: 20px;
+	z-index:4;
+}
+#slider li{
+	float: left;
+	cursor: pointer;
+	//transition:all 150ms;
+}
+#slider li>div{
+	// filter:alpha(opacity=0);       /* IE */
+    // -moz-opacity:0;               /* 老版Mozilla */ 
+    // -khtml-opacity:0;              /* 老版Safari */
+	// z-index:2;
+	// opacity:0;
+	-moz-border-radius: 999px; /* Firefox */
+  	-webkit-border-radius: 999px; /* Safari 和 Chrome */
+  	border-radius: 999px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+}
+
+.btn_hover{
+	background: #aaa;
+	cursor: pointer;
+}
+
