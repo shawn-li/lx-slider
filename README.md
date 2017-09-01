@@ -2,9 +2,9 @@
 ### A simple plugin to create a slideshow with some pics
 
 + [Usage](#usage)
-  -[HTML](#html)
-  -[JS](#js)
-  -[CSS](#css)
+	+[HTML](#html)
+	+[JS](#js)
+  	+[CSS](#css)
   
 + [Options](#options)
 
