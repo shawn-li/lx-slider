@@ -10,8 +10,8 @@
 
 
 ## Usage
-	就像我们看到的示例一样，我们需要引入插件的lx-slider.js和slider.css，当然还有jquery。另外这个示例用到了[fullpage插件jquery.fullpage.js](https://github.com/alvarotrigo/fullPage.js)，可以自行选择。
-	As we can see in the example files, you will need to include the JavaScript file lx-slider.js and the css file slider.css of the plugin, as well as jQuery.Besides,this example also use fullpage plugin,and the choice is up to you.
+就像我们看到的示例一样，我们需要引入插件的lx-slider.js和slider.css，当然还有jquery。另外这个示例用到了[fullpage插件jquery.fullpage.js](https://github.com/alvarotrigo/fullPage.js)，可以自行选择。<br/>
+As we can see in the example files, you will need to include the JavaScript file lx-slider.js and the css file slider.css of the plugin, as well as jQuery.Besides,this example also use fullpage plugin,and the choice is up to you.
   
   ### HTML
   ~~~
