@@ -1,7 +1,6 @@
-(function(){
+$(document).ready(function(){
 	
 	//lx-slider插件
-	//$('.slider').lxslider();
 	$('#slider').lxslider({
 		boxHeight:500,
 		imgRatio:(5/7),
@@ -18,4 +17,5 @@
 
 	//fullpage插件
 	$('#wrap').fullpage();
-})();
+	
+});
